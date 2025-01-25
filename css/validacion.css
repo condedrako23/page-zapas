@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+
+}
+
+h2 {
+  color: white;
+}
+
+body {
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(135deg, #2597d4, #7958db, #4791ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation2 10s ease infinite;
+}
+
+@keyframes gradientAnimation2 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: aqua;
+  padding: 30px;
+  height: 80%;
+  width: auto;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #115e87, #5c38c7, #1e5ebe);
+  background-size: 400% 400%;
+  animation: gradientAnimation2 10s ease infinite;
+}
+
+@keyframes gradientAnimation2 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container h2 {
+  margin-bottom: 40px;
+}
+
+.container input {
+  margin: 15px;
+  display: block;
+  padding: 3px;
+  border-radius: 10px;
+  border: none;
+  font-size: medium;
+}
+
+label {
+  color: white;
+}
+
+
+
+.btn button {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2597d4, #7958db, #4791ff);
+  background-size: 400% 400%;
+  animation: gradientAnimation2 10s ease infinite;
+}
+
+@keyframes gradientAnimation2 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn button:hover {
+  cursor: pointer;
+}
